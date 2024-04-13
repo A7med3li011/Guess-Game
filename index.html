@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Word</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="container py-5">
+
+        <h1 class="text-center mb-2">Guess The Word</h1>
+
+        <h3 class="text-center alert alert-danger mb-3 message d-none">
+            <div>You Are<span class="status"></span></div>
+            <div>The Word Is <span class="word text-primary"></span></div>
+        </h3>
+        <div class="row justify-content-center mt-5 ">
+            <div class="col-md-6 guessBody">
+                
+
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Key Color</h3>
+                <div class="key">
+                    <span class="correct"></span>
+                    <span>Letter Is Correct and In Place</span>
+                </div>
+                <div class="key">
+                    <span class="semi-correct"></span>
+                    <span>Letter Is Correct But Not In Place</span>
+                </div>
+                <div class="key">
+                    <span class="wrong"></span>
+                    <span>Letter Is Wrong</span>
+                </div>
+
+                <div class="btns ">
+                    <div class="btn btn-primary w-50 checker">Check Answer</div>
+                    <div class="btn btn-warning  w-25 hint">Hint</div>
+                    <div class="btn btn-danger mt-3 agian">Play Again <span><i class="fa-solid fa-rotate-right spin"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
